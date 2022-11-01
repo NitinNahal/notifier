@@ -1,0 +1,13 @@
+---
+name: "notifier_google_chat"
+pack: "notifier"
+description: "Action to put a message in chat space"
+runner_type: "python-script"
+enabled: true
+entry_point: "notifier_google_chat.py"
+parameters:
+    triggers:
+      type: "string"
+      description: "Event message to process"
+      required: true
+    #default: "Hello from notifier app !"

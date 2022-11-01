@@ -1,0 +1,18 @@
+---
+name: "chat_space_notifier"
+pack: "notifier"
+description: "Notify Google chat space for event triggered"
+enabled: true
+trigger:
+  type: "core.st2.webhook"
+  parameters:
+    url: "notify"
+  
+criteria:
+  trigger.body.notification_for:
+    type: "equals"
+    pattern : "space_message"
+action:
+  ref: "notifier.notifier_google_chat"
+  parameters:
+    triggers: "{{ trigger }}"

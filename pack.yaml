@@ -1,0 +1,11 @@
+---
+ref: notifier
+name: notifier
+description: A Simple stackstorm notifier event automation app
+keywords:
+    - tutorial
+    - stackstorm
+    - notifier
+version: 0.1.0
+author: nitin
+email: nitin.nahal14@gmail.com

@@ -1,0 +1,5 @@
+# This is a config schema file for notifier pack.
+---
+  certificate_path:
+    description: "Path to certificates for trusted links"
+    required: true

@@ -1,0 +1,6 @@
+# This is a config file for notifier pack.
+# Make sure to provide the right path of certificates.
+# Do not forget to place this file at /opt/stackstorm/configs/notifier.yaml
+# Once put do - 'st2ctl reload --register-configs' to confirm the config
+---
+  certificate_path: "/etc/ssl/certs/CA4python.pem"
